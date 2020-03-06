@@ -1,0 +1,30 @@
+.map-container {
+	width: 100%;
+}
+.map {
+	position: relative;	
+	height: 300px;	
+	background-repeat: no-repeat;	
+	background-position: 50% 100%;	
+	background-image: url('map.jpg');	
+}
+.container-block {
+	margin: 0 auto;
+	max-width: 1248px;	
+}
+.map > iframe {
+	width: 100%;
+	height: 100%;
+}
+/* оформление надписи о загрузке карты */
+.map-preloader {
+	display: none;
+	position: absolute;
+	top: 50%; left: calc(50% - 144px);
+	padding: 4px;
+	border: 2px solid #38a3fd;
+	border-radius: 50px;
+	text-align: center;
+	background-color: #FFFFFF;	
+}
+/* !/ оформление надписи о загрузке карты */
